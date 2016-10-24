@@ -1,0 +1,12 @@
+#reg{margin-left: 0vw; margin-top: 6vw; font-size: 2vw; background-color: rgb(122, 185, 193); width: 40vw; height: 28vw; border-radius: 2vw; margin-top: 5vw; padding-left: 2vw; padding-top: 2vw;}
+
+#usernamereg{margin-bottom:0.5vw; padding-left: 0.2vw; border-radius: 0.5vw; border-width: 0.2vw; width: 15vw; height: 2vw; font-size: 1.5vw; margin-top: 0.5vw; padding-top: 0.5vw; padding-bottom: 0.2vw;
+			padding-right:1vw; margin-left: 0.7vw;}
+#passwordreg{margin-bottom:0.5vw; padding-left: 0.2vw; border-radius: 0.5vw; border-width: 0.2vw; width: 15vw; height: 2vw; font-size: 1.5vw; margin-top: 0.5vw; padding-top: 0.5vw; padding-bottom: 0.2vw;
+			padding-right:1vw; margin-left: 1.3vw;}
+#fullnamereg{margin-bottom:0.5vw; padding-left: 0.2vw; border-radius: 0.5vw; border-width: 0.2vw; width: 15vw; height: 2vw; font-size: 1.5vw; margin-top: 0.5vw; padding-top: 0.5vw; padding-bottom: 0.2vw;
+			padding-right:1vw; margin-left: 1vw;}
+
+#submitreg{margin-top: -2vw; border-radius: 0.5vw; border-width: 0.2vw; width: 15vw; height: 5vw; font-size: 2vw; margin-bottom: -2vw; font-size: 3vw;}
+
+.g-recaptcha{transform:scale(1.5);-webkit-transform:scale(1.5);transform-origin:0 0;-webkit-transform-origin:0 0; margin-bottom: 2vw; margin-top:2vw;}

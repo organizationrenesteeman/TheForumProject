@@ -1,0 +1,22 @@
+/* account page css */
+
+#background{
+  background-color: rgb(220,220,220);
+  border-radius: 10px;
+  width: 1230px;
+  margin-left: 140px;
+  padding: 20px;
+}
+
+.form-group{
+  width: 1200px;
+  font-size: 30px;
+}
+
+.form-group label{
+  width: 300px;
+}
+
+#SaveChanges{
+  margin-left: 0px;
+}

@@ -1,0 +1,31 @@
+/* post css */
+
+#Post{
+  font-size: 70px;
+  margin-left: 140px;
+  margin-top: -10px;
+  color: rgb(50,50,50);
+}
+
+.jumbotron{
+  height: 600px;
+  overflow: auto;
+}
+
+#PostTitle{
+  font-size: 50px;
+  width: 600px;
+}
+
+#PostContent{
+  height: 400px;
+}
+
+#PostButton{
+  position: static;
+  margin-right: 10px;
+  margin-left: 140px;
+  font-size: 60px;
+  width: 220px;
+  color: rgb(20,20,20);
+}

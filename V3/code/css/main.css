@@ -35,13 +35,22 @@
     color: rgb(250,250,250);
 }
 
-#CreateButton{
+#SignUpButton{
   background-color: rgb(100, 200, 100);
   color: rgb(100,100,100);
+  width: 130px;
 }
 
-#CreateButton:hover{
+#SignUpButton:hover{
   color: rgb(250,250,250);
+}
+
+.modal{
+  margin-top: 200px;
+}
+
+.modalForm{
+  margin-top: 20px;
 }
 
 #PostButton{
@@ -67,6 +76,15 @@
   margin-left: 140px;
   height: 240px;
   overflow: scroll;
+  background-color: rgb(250,250,250);
+}
+
+.jumbotron:nth-child(2n-1){
+  background-color: rgb(220,240,250);
+}
+
+.jumbotron p:first-letter{
+  font-size: 150%;
 }
 
 .TitlePost{

@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>
-      forum-home
+      forum
     </title>
 
       <link rel="apple-touch-icon" sizes="180x180" href="./images/icon/apple-touch-icon.png">
@@ -43,10 +43,12 @@
 
         <form class="form-inline float-xs-right">
 
-            <input class="form-control AccountFields" type="text" placeholder="email">
-            <input class="form-control AccountFields" type="text" placeholder="password">
-            <button class="btn btn-outline-success AccountOptionButtons" type="submit" id="LoginButton">Login</button>
-            <button class="btn btn-outline-success AccountOptionButtons" type="submit" id="CreateButton">Create</button>
+          <button type="button" class="btn btn-outline-success AccountOptionButtons" data-toggle="modal" data-target="#LoginModal" id="LoginButton">
+            Login
+          </button>
+          <button type="button" class="btn btn-outline-success AccountOptionButtons" data-toggle="modal" data-target="#SignUpModal" id="SignUpButton">
+            Sign Up
+          </button>
 
         </form>
 
@@ -109,5 +111,53 @@
     <link rel="stylesheet" type="text/css" href="../css/account.css">
 
   </body>
+
+  <!-- Modal login -->
+  <div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Login</h4>
+        </div>
+        <div class="modal-body">
+          <input class="form-control AccountFields modalForm" type="text" placeholder="email">
+          <input class="form-control AccountFields modalForm" type="password" placeholder="password">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Forgot password</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Sign Up -->
+  <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+        </div>
+        <div class="modal-body">
+          <input class="form-control AccountFields modalForm" type="text" placeholder="full name">
+          <input class="form-control AccountFields modalForm" type="text" placeholder="email">
+          <input class="form-control AccountFields modalForm" type="password" placeholder="password">
+          <input class="form-control AccountFields modalForm" type="password" placeholder="comfirm password">
+          <input class="form-control AccountFields modalForm" type="text" placeholder="password hint">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Create Account</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </html>

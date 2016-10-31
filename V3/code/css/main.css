@@ -1,9 +1,14 @@
 .navbar {
-  background-color:teal;
   background-image: none;
   background-repeat: no-repeat;
   background-color: rgb(85,160,190);
   font-size: 50px;
+ }
+
+ .navbar-default {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
  }
 
 .navbar a{
@@ -13,6 +18,24 @@
 #LogoNavBar{
   width: 80px;
   height: 80px;
+}
+
+.nav-link{
+  color: rgba(38, 38, 38, 0.5);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;;
+  transition-delay: 0s;
+}
+
+/* TODO not the right color, there's a bug */
+
+.nav-link:hover{
+  color: white;
+}
+
+.activenav{
+  color: rgba(38, 38, 38, 1) ;
 }
 
 .AccountFields{
@@ -29,16 +52,24 @@
 #LoginButton{
   background-color: rgb(100, 200, 100);
   color: rgb(100,100,100);
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;;
+  transition-delay: 0s;
 }
 
 #LoginButton:hover{
-    color: rgb(250,250,250);
+  color: rgb(250,250,250);
 }
 
 #SignUpButton{
   background-color: rgb(100, 200, 100);
   color: rgb(100,100,100);
   width: 130px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;;
+  transition-delay: 0s;
 }
 
 #SignUpButton:hover{
@@ -60,6 +91,15 @@
   width: 220px;
   color: rgb(20,20,20);
   position: fixed;
+  transition-property: color, background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;;
+  transition-delay: 0s;
+}
+
+#PostButton:hover{
+  color: rgb(250,250,250);
+  background-color: rgb(50,140,200)
 }
 
 .navbar{
@@ -77,6 +117,14 @@
   height: 240px;
   overflow: scroll;
   background-color: rgb(250,250,250);
+  transition-property: height;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;;
+  transition-delay: 0s;
+}
+
+.jumbotron:hover{
+  height: 400px;
 }
 
 .jumbotron:nth-child(2n-1){
@@ -90,8 +138,10 @@
 .TitlePost{
   margin-left: -100px;
   margin-top: -30px;
+  text-shadow: 4px 3px 4px rgba(200, 200, 200, 0.7)
 }
 
 .ContentPost{
   margin-left: -100px;
+  text-shadow: 1px 1px 1px rgba(200, 200, 200, 0.8)
 }

@@ -3,6 +3,9 @@
 <html lang="en">
   <head>
 
+    <!-- live reload -->
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,37 +26,37 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
-    <nav class="navbar navbar-light bg-faded navbar-fixed-top NavText">
+    <nav class="navbar navbar-fixed-top NavText nav">
 
-      <ul class="nav navbar-nav">
+      <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navigation">
+        &#9776;
+      </button>
 
-        <a href="index.php" class="nav-item"><img id="LogoNavBar" src="./images/LogoNavBar.svg"></a>
+        <a href="index.php" class="navbar-brand float-sm-right float-md-left img-fluid"><img id="LogoNavBar" src="./images/LogoNavBar.svg"></a>
 
-        <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-        </li>
+      <div class="collapse navbar-toggleable-sm" id="navigation">
+        <ul class="nav navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link activenav" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="code/pages/groups.php">Groups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="code/pages/account.php">Account</a>
+          </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="code/pages/groups.php">Groups</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="code/pages/account.php">Account</a>
-        </li>
-
-        <form class="form-inline float-xs-right">
-
+          <form class="form-inline float-md-right">
             <button type="button" class="btn btn-outline-success AccountOptionButtons" data-toggle="modal" data-target="#LoginModal" id="LoginButton">
               Login
             </button>
             <button type="button" class="btn btn-outline-success AccountOptionButtons" data-toggle="modal" data-target="#SignUpModal" id="SignUpButton">
               Sign Up
             </button>
+          </form>
 
-        </form>
-
-      </ul>
-
+        </ul>
+      </div>
     </nav>
 
     <a href="code/pages/post.php">

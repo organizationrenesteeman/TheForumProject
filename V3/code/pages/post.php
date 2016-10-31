@@ -113,7 +113,7 @@
       </div>
     </div>
 
-    <div class="jumbotron">
+    <div class="jumbotron postjumbotron">
       <div class="container">
         <input type="text" class="form-control display-3 TitlePost" id="PostTitle" placeholder="Title"> </br>
         <textarea type="text" class="form-control lead ContentPost" id="PostContent" name='contentmessage' cols="5" rows="10" placeholder="Title"

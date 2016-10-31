@@ -7,9 +7,10 @@
   color: rgb(50,50,50);
 }
 
-.jumbotron{
-  height: 600px;
-  overflow: auto;
+.postjumbotron {
+  height: 600px !important;
+  overflow: auto !important;
+  background-color: rgb(250,250,250) !important;
 }
 
 #PostTitle{

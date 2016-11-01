@@ -26,13 +26,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
-    <nav class="navbar navbar-fixed-top NavText nav">
+    <nav class="navbar navbar-fixed-top NavText nav .container-fluid">
 
       <button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#navigation">
-        &#9776;
+        &#8801;
       </button>
 
-        <a href="index.php" class="navbar-brand float-sm-right float-md-left img-fluid"><img id="LogoNavBar" src="./images/LogoNavBar.svg"></a>
+        <a href="index.php" class="navbar-brand float-xs-right float-md-left "><img id="LogoNavBar" src="./images/LogoNavBar.svg"></a>
 
       <div class="collapse navbar-toggleable-sm" id="navigation">
         <ul class="nav navbar-nav ">
